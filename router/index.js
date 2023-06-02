@@ -22,7 +22,7 @@ export default new Router({
         {
           path: 'tag',
           name: 'page',
-          component: () => import('../src/components/Tag/test.vue')
+          component: () => import('../src/components/Tag/TabbarPage.vue')
         },
       
       ]

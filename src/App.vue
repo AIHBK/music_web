@@ -7,10 +7,9 @@
         <img class="logo-container" src="../static/img/logo.png" alt="加载失败">
         <el-menu
           :router="true"
-          :default-active="$route.path"
+          :default-active="$route.path + '/tag'"
           style="margin-top: 120px;"
         >
-        
           <el-menu-item v-for="item in menubarPersonList" :key="item.id" :index="item.path" style="position: relative;">
             <span slot="title">{{ item.title }}</span>
             <i :class="item.icon"></i>
@@ -224,6 +223,7 @@ export default {
 }
 </script>
 
+<style src="../static/iconfont/iconfon.css"></style>
 <style>
 body {
   margin: 0 !important;
@@ -256,4 +256,8 @@ body {
   width: 65vw;
   height: 100%;
 }
+a {
+    text-decoration:none;
+    color:#000000;
+  }
 </style>

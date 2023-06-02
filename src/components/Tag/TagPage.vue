@@ -49,8 +49,4 @@ export default {
     border: 1px solid #fd353f;
     color: #ffffff;
   }
-  a {
-    text-decoration:none;
-    color:#000000;
-  }
 </style>
